@@ -45,6 +45,10 @@ dependencies:
   shared_preferences: ^2.0.15
   webview_flutter: ^3.0.4
   smooth_page_indicator: ^1.0.0+2
+  top_snackbar_flutter: ^2.1.1
+  carousel_slider: ^4.1.1
+  cached_network_image: ^3.2.2
+  conditional_builder_null_safety: ^0.0.6
 #  fluttertoast: ^8.0.7
 
 dev_dependencies:

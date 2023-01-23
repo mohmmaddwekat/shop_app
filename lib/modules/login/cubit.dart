@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:shop_app/models/login_model.dart';
+import 'package:shop_app/models/auth/login_model.dart';
 import 'package:shop_app/modules/login/states.dart';
 import 'package:shop_app/shared/network/end_point.dart';
 import 'package:shop_app/shared/network/remote/dio_helper.dart';
@@ -22,13 +22,13 @@ class LoginCubit extends Cubit<LoginStates>
   {
     emit(LoginLoadingState());
     DioHelper.postData(
-      url: login,
+      url: LOGIN,
       data: {
         'email' : email,
         'password' : password,
       },
     ).then((value){
-      loginModel = LoginModel.fromJason(value.data);
+      loginModel = LoginModel.formJason(value.data);
       emit(LoginSuccessState(loginModel));
     }).catchError((error){
       print(error);
