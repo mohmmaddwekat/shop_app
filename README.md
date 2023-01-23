@@ -44,7 +44,7 @@ This is an example of how you may give instructions on setting up your project l
 #### Log in, create an account, and modify the account.
 
 ### 5. Products
-### A page to view product details.
+#### A page to view product details.
 
 
 
