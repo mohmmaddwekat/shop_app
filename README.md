@@ -1,16 +1,54 @@
-# shop_app
+# Shop App
 
-A new Flutter project.
+#### You may have difficulty purchasing from the store, or it may take a long time to find products through our store. You can see some of our products and buy what you want easily.
 
-## Getting Started
+# Built with
+For our frontend design, we have used the following frameworks:
+* Flutter
 
-This project is a starting point for a Flutter application.
+For the backend:
+* Flutter
 
-A few resources to get you started if this is your first Flutter project:
+# Key Features
+ * Favorites page
+ * Categories page
+ * Search page
+ * Login
+ * Register
+ * Settings
+ * Products
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Getting Started 
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+# How To Use
+
+#### You need to download Android Studio or vscode in order to open the quality on it You need to download dart and flutter inside Android Studio You need to create an Emulator and then you can run the application on it
+
+
+### Below is the logic of our work:
+
+#### 1. Favorites page
+#### View favorite products.
+
+
+#### 2. Categories page
+#### View product categories. 
+
+
+#### 3. Search page
+#### Search for products.
+
+#### 4. Login and Register and Settings
+#### Log in, create an account, and modify the account.
+
+### 5. Products
+### A page to view product details.
+
+
+
+
+
+
+
